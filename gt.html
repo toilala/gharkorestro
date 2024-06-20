@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GHARKO! Restaurant</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="branding-container">
+      <div class="logo">
+        <img src="logo.png" alt="Restaurant Logo">
+      </div>
+      <div class="branding">
+        <h1 class="name">GHARKO!</h1>
+        <p class="slogan">Authentic Nepali Taste!</p>
+      </div>
+    </div>
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Reservation</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Welcome to GHARKO!</h2>
+        <p>Experience the authentic taste of Nepal in the heart of the city. Our signature momo is a must-try!</p>
+        <button class="btn">Learn More</button>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="about-text">
+        <h2>About Us</h2>
+        <p>GHARKO! is a family-owned restaurant dedicated to serving traditional Nepali cuisine with a modern twist. Our chefs use only the freshest ingredients to create dishes that are both flavorful and authentic.</p>
+        <button class="btn">Learn More</button>
+      </div>
+    </section>
+    <section id="menu" class="menu">
+      <h2 class="menu-title">Our Traditional Nepali Menu</h2>
+      <p>Experience the authentic flavors of Nepal with our carefully crafted menu, featuring a range of traditional dishes that will transport your taste buds to the Everest. From hot momo to flavorful curries, our menu showcases the rich culinary heritage of Nepal.</p>
+      <div class="menu-spacing"></div>
+      <div class="menu-categories">
+        <button class="btn">Appetizers</button>
+        <button class="btn">Lunch</button>
+        <button class="btn">Main Course</button>
+      </div>
+      <div class="menu-items">
+        <div class="menu-item">
+          <img src="momo.jpg" alt="Momo Image">
+          <h3>Momo</h3>
+          <p>Steamed dumplings filled with spiced meat or vegetables, served with a side of achar.</p>
+          <span class="price">$2.50</span>
+        </div>
+        <div class="menu-item">
+          <img src="chicken.jpg" alt="Chicken Image">
+          <h3>Timur Chicken</h3>
+          <p>Tender and juicy chicken cooked in a rich Nepali spice blend, with a pinch of timur.</p>
+          <span class="price">$12.99</span>
+        </div>
+        <div class="menu-item">
+          <img src="thakali.jpg" alt="Thakali Image">
+          <h3>Thakali Set</h3>
+          <p>A traditional Nepali meal consisting of daal, rice, vegetables, and your choice of meat or fish.</p>
+          <span class="price">$14.99</span>
+        </div>
+      </div>
+      <div class="menu-background">
+        <img src="menu-background.jpg" alt="Menu Background Image">
+      </div>
+    </section>
+    <section id="reservation" class="reservation">
+      <h2>Make a Reservation</h2>
+      <form>
+        <div class="row">
+          <div class="col-6">
+            <div class="form-group">
+              <label for="date">Date:</label>
+              <input type="date" id="date" name="date" required class="form-element">
+            </div>
+            <div class="form-group">
+              <label for="time">Time:</label>
+              <input type="time" id="time" name="time" required class="form-element">
+            </div>
+            <div class="form-group">
+              <label for="persons">Number of Persons:</label>
+              <input type="number" id="persons" name="persons" required class="form-element">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="form-group">
+              <label for="special-requests">Special Requests:</label>
+              <textarea id="special-requests" name="special-requests" class="form-element"></textarea>
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Make a Reservation</button>
+      </form>
+    </section>
+    <section class="contact">
+      <h2>Get in Touch</h2>
+      <div class="contact-wrap">
+        <div class="contact-form">
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <input type="submit" value="Send Message">
+          </form>
+        </div>
+        <div class="contact-info">
+          <p>Phone: 9812345678</p>
+          <p>Email: gharkoresturant@gmail.com</p>
+          <p>Sanepa, Lalitpur<br>Nepal</p>
+        </div>
+        <div class="social-media">
+          <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="design-elements">
+        <svg viewBox="0 0 100 100" width="100" height="100">
+          <circle cx="50" cy="50" r="40" fill="#fff" opacity="0.5"></circle>
+        </svg>
+        <svg viewBox="0 0 100 100" width="100" height="100" style="transform: rotate(45deg)">
+          <circle cx="50" cy="50" r="40" fill="#fff" opacity="0.5"></circle>
+        </svg>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 GHARKO! Restaurant. All rights reserved.</p>
+  </footer>
+</body>
+</html>
