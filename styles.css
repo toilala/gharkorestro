@@ -492,22 +492,3 @@ footer a {
 footer a:hover {
   color: #ccc;
 }
-
-.social-media {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.social-media a {
-  margin: 0 10px;
-}
-
-.social-media i {
-  font-size: 24px;
-  color: #fff;
-}
-
-.social-media i:hover {
-  color: #ccc;
-}
